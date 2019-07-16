@@ -1,0 +1,16 @@
+{
+  "name": "node-favicons",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "favicons": "node ./index.js"
+  },
+  "repository": "git@github.com:wangcylive/node-favicons.git",
+  "author": "wangchunyang1 <wangchunyang1@yy.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "favicons": "^5.4.1",
+    "gulp": "^4.0.2"
+  }
+}
