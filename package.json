@@ -10,7 +10,7 @@
   "author": "wangchunyang1 <wangchunyang1@yy.com>",
   "license": "MIT",
   "devDependencies": {
-    "favicons": "^5.4.1",
+    "favicons": "^6.0.0",
     "gulp": "^4.0.2"
   }
 }

@@ -2,11 +2,11 @@ const path = require('path')
 const gulp = require('gulp')
 const favicons = require('favicons').stream
 
-const url = path.resolve(__dirname, './favicons/ma.png')
+const url = path.resolve(__dirname, './favicons/logo.png')
 
 gulp.task('default', function () {
   return gulp.src(url).pipe(favicons({
-    path: 'http://www.baidu.com/assets/favicons/', // 设置 publicPath
+    path: 'https://ma.fachunjun.com/site/assets/img/favicon/', // 设置 publicPath
     appName: 'My App',
     appShortName: 'App',
     appDescription: 'This is my application',
