@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "gulp",
-    "favicons": "node ./index.js"
+    "start": "node ./index.js"
   },
+  "type": "module",
   "repository": "git@github.com:wangcylive/node-favicons.git",
   "author": "wangchunyang1 <wangchunyang1@yy.com>",
   "license": "MIT",
   "devDependencies": {
-    "favicons": "^6.0.0",
+    "favicons": "^7.0.2",
     "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "make-dir": "^3.1.0",
+    "to-ico": "^1.1.5"
   }
 }
